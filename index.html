@@ -1,14 +1,24 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Заголовок</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <p>Hello world</p>
-        <script src="js/script.js"></script>
+
+    <div class="wrapper">
+        <form class="form-signin">
+            <h2 class="form-signin-heading">This is form</h2>
+            <input type="text" class="form-control">
+            <input id="checkbox" type="checkbox">
+            <button class="btn btn-block btn-lg btn-primary">Confirm</button>
+        </form>
+        <button id="color" class="btn btn-block btn-lg btn-primary">Change color</button>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
